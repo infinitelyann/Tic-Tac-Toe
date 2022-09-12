@@ -1,0 +1,85 @@
+body{
+  color: #EBC7E8;
+    background-color: #645CAA;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+}
+.name{
+  padding-top: 50px;
+}
+.main{
+  color:#FAF4B7;
+  
+}
+.player {
+  display: inline-block;
+  padding: 25px;
+}
+
+
+#board{
+    display: grid;
+  
+    grid-template-columns: auto auto auto;
+    font-size: 3rem;
+    align-items: center;
+    margin-right: 30%;
+    margin-left: 30%;    
+}
+#reset-button {
+
+background-color: #B1B2FF;
+    border-radius: 16px;
+    
+   
+    color:#EBC7E8 ;
+    font-size: 20px;
+    padding: 12px 30px 12px 30px;
+    text-decoration: none;
+    border-color: #BFACE0;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+  
+    
+  }
+  
+
+    
+.block{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+    height: 150px;
+    width:150px ;
+    background-color: #C9BBCF;
+    border: 1px;
+    border-style: solid;
+    border-color:#25316D;
+    margin: 6px 6px;
+    
+    
+
+}
+button.player-buttons{
+  color:#EBC7E8 ;
+  height: 75px ;
+  width: 75px;
+  font-size: large;
+  background-color: #A084CA;
+  border-color: #BFACE0;
+  font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+.button{
+  padding-bottom: 50px;
+}
